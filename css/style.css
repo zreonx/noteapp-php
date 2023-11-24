@@ -1,0 +1,164 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+body {
+    /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.tb-d {
+    font-size: .8rem;
+    padding: .5rem 1rem;
+}
+
+
+.navbar {
+    background-color: #00abc5 !important;
+    
+}
+
+.navbar-nav {
+    font-size: .9rem;
+}
+
+.notfound {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   z-index: -999;
+
+}
+
+.notfound img {
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.create-btns {
+    position: fixed;
+    right: 30px;
+    top: calc(100vh - 100px);
+    z-index: 100;
+}
+
+.create-btns:hover {
+   
+}
+
+.create-btns a {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Cards */
+
+.c-login {
+    max-width: 400px;
+    font-size: .8rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: none;
+   
+}
+
+
+/* USER */ 
+
+.size-def{
+    font-size: .8rem !important;
+}
+
+.size-mini {
+    font-size: .6rem !important;
+}
+
+.user-nav {
+    height: 60px;
+    background-color: #bfeef5;
+    border-radius: .4rem;
+    padding: 1rem;
+}
+
+.user-nav a {
+    border-radius: 50px;
+}
+
+.allnotes {
+    display: grid;
+    gap: 12px;
+    grid-auto-flow: dense; 
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 110px;
+}
+
+.notes:nth-child(1) {
+    background-color: 	#29c3ce;
+    grid-column: span 2;
+    color: #fff;
+}
+
+.notes {
+    background-color: 	#f3f3f3;
+    border-radius: .5rem;
+    border: 1px solid #99dde7;
+    cursor: pointer;
+}
+
+.myshadow:hover {
+    transition: all ease-in-out .3s;
+}
+.myshadow:hover, .create-btns a:hover {
+    box-shadow: 5px 5px 8px rgba(107, 106, 106, 0.151);
+}
+
+.date {
+    font-size: .8rem !important;
+    color: #1d1d1d;
+}
+
+
+.red {
+    color: rgb(250, 100, 100);
+    font-size: 1.4rem;
+}
+
+.ndesc, .ntitle, .date{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+.date{
+    font-size: .6rem !important;
+    white-space: nowrap;
+}
+
+.nfoot {
+    background: none;
+}
+
+.title {
+    font-weight: 700 !important;
+}
+
+.note-data {
+    font-size: .8rem;
+}
